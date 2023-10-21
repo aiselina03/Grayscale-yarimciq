@@ -1,0 +1,287 @@
+@import "./base/reset";
+
+header {
+  width: 100%;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(213, 213, 213);
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    h1 {
+      font-size: 23px;
+      font-weight: bold;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      font-size: 20px;
+      li {
+        &:hover {
+          color: rgb(230, 230, 230);
+        }
+      }
+    }
+  }
+  .header-text {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      font-size: 90px;
+      letter-spacing: 20px;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    button {
+      font-size: 12px;
+      color: white;
+      padding: 20px 30px;
+      background-color: #50817e;
+      border: none;
+      border-radius: 10px;
+      letter-spacing: 5px;
+      cursor: pointer;
+      margin-top: 40px;
+      &:hover {
+        background-color: #64a19d;
+      }
+    }
+  }
+}
+
+.sec1 {
+  width: 100%;
+  height: 87vh;
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  .sec1text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+    h2 {
+      font-size: 30px;
+      color: white;
+      margin: 30px;
+    }
+    p {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.5);
+      line-height: 25px;
+      a {
+        color: #64a19d;
+      }
+    }
+  }
+  .sec1img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding-top: 80px;
+      width: 1200px;
+    }
+  }
+}
+
+.sec2 {
+  width: 100%;
+  height: 210vh;
+  .container {
+    width: 90%;
+    margin: 50px auto;
+    .shoreline {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .photo1 {
+        width: 60%;
+        img {
+          width: 100%;
+        }
+      }
+      .text1 {
+        width: 30%;
+        font-size: 16px;
+        .title {
+          width: 400px;
+          text-align: center;
+          margin: 0 15px;
+          line-height: 28px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          h3 {
+            font-weight: 500;
+            line-height: 30px;
+            color: rgb(67, 66, 66);
+          }
+          p {
+            color: rgba(0, 0, 0, 0.5);
+          }
+        }
+      }
+    }
+  }
+
+  .container1 {
+    width: 90%;
+    margin: 0 auto;
+    .cont1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .misty {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .textmisty {
+        width: 45%;
+        height: 439px;
+        background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+        h4 {
+          color: white;
+          font-size: 23px;
+          padding: 20px;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 15px;
+        }
+      }
+    }
+    .cont2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .textmountain {
+        width: 45%;
+        height: 440px;
+        background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+        h4 {
+          color: white;
+          font-size: 23px;
+          padding: 20px;
+        }
+        p {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 15px;
+        }
+      }
+      .mountain {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.sec3 {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 75%,
+      #000 100%
+    ),
+    url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  line-height: 60px;
+  .fa-regular {
+    font-size: 35px;
+  }
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    input {
+      width: 40%;
+      height: 35px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: none;
+      font-size: 15px;
+      margin: 20px;
+      letter-spacing: 5px;
+    }
+    button {
+      color: white;
+      background-color: #64a19d;
+      border: none;
+      padding: 20px 25px;
+      opacity: 0.6;
+      border-radius: 8px;
+      letter-spacing: 5px;
+    }
+  }
+}
+
+.sec4 {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  color: rgb(67, 66, 66);
+}

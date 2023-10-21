@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(213, 213, 213);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+header .navbar h1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+header .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+}
+header .navbar ul li:hover {
+  color: rgb(230, 230, 230);
+}
+header .header-text {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .header-text h1 {
+  font-size: 90px;
+  letter-spacing: 20px;
+}
+header .header-text p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header .header-text button {
+  font-size: 12px;
+  color: white;
+  padding: 20px 30px;
+  background-color: #50817e;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+header .header-text button:hover {
+  background-color: #64a19d;
+}
+
+.sec1 {
+  width: 100%;
+  height: 87vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.sec1 .sec1text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 60px;
+}
+.sec1 .sec1text h2 {
+  font-size: 30px;
+  color: white;
+  margin: 30px;
+}
+.sec1 .sec1text p {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 25px;
+}
+.sec1 .sec1text p a {
+  color: #64a19d;
+}
+.sec1 .sec1img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .sec1img img {
+  padding-top: 80px;
+  width: 1200px;
+}
+
+.sec2 {
+  width: 100%;
+  height: 210vh;
+}
+.sec2 .container {
+  width: 90%;
+  margin: 50px auto;
+}
+.sec2 .container .shoreline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .container .shoreline .photo1 {
+  width: 60%;
+}
+.sec2 .container .shoreline .photo1 img {
+  width: 100%;
+}
+.sec2 .container .shoreline .text1 {
+  width: 30%;
+  font-size: 16px;
+}
+.sec2 .container .shoreline .text1 .title {
+  width: 400px;
+  text-align: center;
+  margin: 0 15px;
+  line-height: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2 .container .shoreline .text1 .title h3 {
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(67, 66, 66);
+}
+.sec2 .container .shoreline .text1 .title p {
+  color: rgba(0, 0, 0, 0.5);
+}
+.sec2 .container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.sec2 .container1 .cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .container1 .cont1 .misty {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .container1 .cont1 .textmisty {
+  width: 45%;
+  height: 439px;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 30px;
+}
+.sec2 .container1 .cont1 .textmisty h4 {
+  color: white;
+  font-size: 23px;
+  padding: 20px;
+}
+.sec2 .container1 .cont1 .textmisty p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+.sec2 .container1 .cont2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec2 .container1 .cont2 .textmountain {
+  width: 45%;
+  height: 440px;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 30px;
+}
+.sec2 .container1 .cont2 .textmountain h4 {
+  color: white;
+  font-size: 23px;
+  padding: 20px;
+}
+.sec2 .container1 .cont2 .textmountain p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+.sec2 .container1 .cont2 .mountain {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec3 {
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 23px;
+  line-height: 60px;
+}
+.sec3 .fa-regular {
+  font-size: 35px;
+}
+.sec3 .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec3 .btn input {
+  width: 40%;
+  height: 35px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  margin: 20px;
+  letter-spacing: 5px;
+}
+.sec3 .btn button {
+  color: white;
+  background-color: #64a19d;
+  border: none;
+  padding: 20px 25px;
+  opacity: 0.6;
+  border-radius: 8px;
+  letter-spacing: 5px;
+}
+
+.sec4 {
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  color: rgb(67, 66, 66);
+}/*# sourceMappingURL=main.css.map */
